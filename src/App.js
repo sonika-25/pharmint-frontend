@@ -153,7 +153,7 @@ function App() {
         </select>
         <select name="date" id="date" class='form_input'  onChange={handleChange}>
           <option value="" id ="option">ALL DAYS</option>
-            {Array.from({ length: 12 }, (_, i) => (
+            {Array.from({ length: 31 }, (_, i) => (
                 <option id ="option" key={i + 1} value={i + 1}>
                     {i + 1}
                 </option>
